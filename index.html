@@ -40,6 +40,25 @@
     </section>
     <section id="contact-section" class="contact-section">
       <h1>CONTACT US</h1>
+      <!-- section title -->
+      <!-- section subtitle -->
+      <div class="form-container">
+        <form id="contact-form" action="" method="post">
+          <label for="name" id="name-label">Name <span class="required">*</span>
+            <input type="text" id="name" name="name" placeholder="Jane Smith" required />
+          </label>
+          <label for="email" id="email-label">Email address <span class="required">*</span>
+            <input type="email" id="email" name="email" placeholder="email@website.com" required />
+          </label>
+          <label for="phone" id="phone-label">Phone number <span class="required">*</span>
+            <input type="tel" id="phone" name="phone" placeholder="555-555-5555">
+          </label>
+          <label for="message" id="message-label">Message
+            <textarea name="message" id="message" placeholder=""></textarea>
+          </label>
+          <button id="submit" class="submit-button" type="submit">Submit</button>
+        </form>
+      </div>
     </section>
   </main>
   <footer>
