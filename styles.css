@@ -19,7 +19,7 @@ a {
 
 header {
   background-color: white;
-  min-height: 4em;
+  height: 4em;
   width: 100%;
   position: fixed;
   top: 0;
@@ -37,7 +37,7 @@ header > a:hover {
   justify-content: space-between;
   align-items: center;
   /* border: 1px solid red; */
-  padding: 1em 15em;
+  padding: 1em 5.625em;
 
 }
 /* #header_logo {
@@ -119,34 +119,48 @@ section {
 }
 
 .hero-section {
-  width: 100%;
-  height: 90vh;
+  /* width: 100%; */
+  height: 90vh; /* possible remove this? */
   /* background-color for testing purposes */
   background-color: #ddd;
 }
 
+/*
 .hero-image {
   width: 100%;
   object-fit: cover;
   position: fixed;
   top: -150px;
   z-index: -1;
-}
+}*/
 
 .wrapper {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
+  align-items: flex-start;
   justify-content: center;
-  padding-left: 5em;
+  padding-left: 5.625em;
   height: 100%;
-  color: #fff;
   border: 1px solid red;
 }
 
 .test-container {
-  color: white;
-  padding: 10px;
+  color: #fff;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.5;
+  text-transform: uppercase;
+  font-weight: 700;
+  /* width: 10%; */
+  padding: 0.75rem;
+  margin-top: 1rem;
+  background-color: var(--brand-color);
+  color: #fff;
+  border-radius: 5px;
 }
 
 .about-section {
@@ -166,21 +180,6 @@ section {
   width: 100%;
   background: linear-gradient(#fff, #ddd);
   border: 1px solid #fff;
-}
-
-.button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  line-height: 1.5;
-  text-transform: uppercase;
-  font-weight: 700;
-  width: 10%;
-  padding: 0.75rem;
-  margin-top: 1rem;
-  background-color: var(--brand-color);
-  color: #fff;
-  border-radius: 5px;
 }
 
 .button:hover {
