@@ -381,3 +381,10 @@ footer {
   background-color: #555;
 }
 /* footer end */
+
+/* TODO: Responsive Design */
+/* > minwidth 1600 width -> large screens (greater margins) */
+/* < 1600 width -> not quite the largest */
+/* < 1200px width -> laptop or tablet in landscape */
+/* < 900 width -> tablet or phone in landscape */
+/* < maxwidth 640px -> small phone screens */
